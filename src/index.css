@@ -91,6 +91,7 @@ button.slick-arrow.slick-prev::before {
 
 button.slick-arrow.slick-next::before {
   color: black;
+  font-size: 1.5rem;
   transform: translate(-40px,-35px);
   z-index: 1;
   position: absolute;
@@ -257,5 +258,8 @@ input[type="radio"] {
   }
   .product p {
     width: fit-content;
+  }
+  .content p {
+    width: 500px;
   }
 }

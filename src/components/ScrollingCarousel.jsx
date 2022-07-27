@@ -16,7 +16,6 @@ export default function ScrollingCarousel() {
         setNav1(slider1)
         setNav2(slider2)
     }, [])
-    console.log(document.querySelector(".slick-prev"));
     return (
         <Slider
             asNavFor={nav2}
